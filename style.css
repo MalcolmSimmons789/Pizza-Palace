@@ -9,3 +9,17 @@
   height: 800px;
 }
 /* End About Section */ ;
+
+/* Media queuries */
+@media (max-width:700) {
+  .card{
+    width: 900px;
+  }
+ }
+
+@media (min-width:1600) {
+  .card{
+    width: 200px;
+  }
+ }
+
