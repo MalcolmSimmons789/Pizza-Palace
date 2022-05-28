@@ -1,6 +1,21 @@
+/* Nav Start */
+.navbar-brand {
+  font-size: 35px;
+}
+
+.navbar-nav {
+  font-size: 25px;
+  padding: 0 15px;
+}
+/* End nav */
+
 /* Slideshow */
 .carousel-item {
   height: 400px;
+}
+
+.carousel-inner {
+  object-fit: fill;
 }
 /* End Slideshow */
 
@@ -8,18 +23,17 @@
 .container-lg {
   height: 800px;
 }
-/* End About Section */ ;
+/* End About Section */
 
 /* Media queuries */
-@media (max-width:700) {
-  .card{
+@media (max-width: 700) {
+  .card {
     width: 500px;
   }
- }
+}
 
-@media (min-width:1600) {
-  .card{
+@media (min-width: 1600) {
+  .card {
     width: 200px;
   }
- }
-
+}
