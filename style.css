@@ -23,6 +23,12 @@
 .container-lg {
   height: 800px;
 }
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: ;
+}
 /* End About Section */
 
 /* Media queuries */
